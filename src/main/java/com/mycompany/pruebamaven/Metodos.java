@@ -12,7 +12,12 @@ import org.kohsuke.github.GitHub;
  * @author abrandarizdominguez
  */
 public class Metodos {
-
+    
+    /**
+     * Método crearRepositorio, que no pide nada y no devuelve nada, pregunta
+     * por el usuario y contraseña de GitHub, el nombre y la descripción del
+     * repositorio y, con estos parámetros crea el repositorio
+     */
     public void crearRepositorio() {
         try {
             String login = JOptionPane.showInputDialog("GitHub User:");
